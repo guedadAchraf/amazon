@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-pod
+spec:
+  containers:
+    - name: my-container-pod
+      image: 533267069463.dkr.ecr.us-east-1.amazonaws.com/k8srepository
+      ports:
+        - containerPort: 80
